@@ -43,39 +43,35 @@ public class HeartOfCountry {
             }
 
             //Values that will determine the heart of the city
-            int[] cities = new int[country.length];
+            int[] possibleHearts = new int[country.length];
 
-            for (int c = 0; c < cities.length; c++) {
 
-                int max = Integer.MIN_VALUE;
-                int index = -1;
-                for (int i = 0; i < country.length; i++) {
-                    int troops = country[i][0];
-                    if (max < troops) {
-                        max = troops;
-                        index = i;
-                    }
+            //Fills up possibleHearts
+            for (int c = 0; c < possibleHearts.length; c++) {
+
+                int sum = country[c][0];
+                for (int i = 2; i < country[c].length; i++) {
+                    sum += country[country[c][i]][0];
                 }
 
-                int sum = country[index][0];
-                for (int i = 2; i < country[index].length; i++) {
-                    sum += country[country[index][i]][0];
-                }
-
-                cities[c] = sum;
+                possibleHearts[c] = sum;
             }
 
+
+            //Finds the heart of the country
             int max = 0;
             int index = -1;
-            for (int i = 0; i < cities.length; i++){
-                if (cities[i] > max) {
-                    max = cities[i];
+            for (int i = 0; i < possibleHearts.length; i++){
+                if (possibleHearts[i] > max) {
+                    max = possibleHearts[i];
                     index = i;
                 }
             }
 
-            int connections = country[index][1];
+            int connections = country[index][1]; //fetches the connections from the proper index
 
+
+            //plus one because it includes the city and all it's connections
             System.out.println(connections+1 + " " + max);
         }
     }
