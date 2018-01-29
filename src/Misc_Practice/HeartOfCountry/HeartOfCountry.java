@@ -1,4 +1,4 @@
-package Misc_Practice.HeartOfCountry;
+package HeartOfCountry;
 
 import java.util.Scanner;
 
