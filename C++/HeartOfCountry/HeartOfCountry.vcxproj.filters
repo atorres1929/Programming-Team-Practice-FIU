@@ -26,15 +26,18 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="KnightMoves.cpp">
+    <ClCompile Include="HeartOfCountry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="knights.in.txt">
+    <Text Include="heartofcountry.in.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="knights.out.txt">
+    <Text Include="heartofcountry.out.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="sample.in.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
