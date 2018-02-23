@@ -1,4 +1,4 @@
-2
+4
 5
 mom: upper-upper-lower-middle class
 dad: middle-middle-middle-lower-middle class
@@ -11,3 +11,11 @@ dad: middle-middle-middle-lower-middle class
 queenelizabeth: upper-upper-upper class
 chair: lower-lower class
 unclebob: middle-middle-lower-middle class
+3
+upper: upper class
+middle: middle class
+lower: lower class
+3
+lower: lower class
+middle: middle class
+upper: upper class
