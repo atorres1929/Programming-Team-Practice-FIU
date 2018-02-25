@@ -1,4 +1,4 @@
-2
+5
 5
 mom: upper-upper-lower-middle class
 dad: middle-middle-middle-lower-middle class
@@ -6,8 +6,27 @@ queenelizabeth: upper-upper-upper class
 chair: lower-lower class
 unclebob: middle-middle-lower-middle class
 5
-mom: upper-upper-lower-middle class
-dad: middle-middle-middle-lower-middle class
-queenelizabeth: upper-upper-upper class
 chair: lower-lower class
+dad: middle-middle-middle-lower-middle class
 unclebob: middle-middle-lower-middle class
+queenelizabeth: upper-upper-upper class
+mom: upper-upper-lower-middle class
+3
+upper: upper class
+middle: middle class
+lower: lower class
+3
+lower: lower class
+middle: middle class
+upper: upper class
+10
+upper: upper class
+middle: middle class
+lower: lower class
+chair: lower-lower class
+dad: middle-middle-middle-lower-middle class
+unclebob: middle-middle-lower-middle class
+queenelizabeth: upper-upper-upper class
+mom: upper-upper-lower-middle class
+ricardo: middle-middle-middle-middle class
+cristina: upper-upper-upper-upper class
