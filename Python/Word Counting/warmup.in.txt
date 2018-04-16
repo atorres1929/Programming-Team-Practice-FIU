@@ -1,0 +1,7 @@
+3
+the
+the problem is too easy
+hArd
+This problem isn't that hard. I wonder if they get any harder...
+in
+You’ve been tasked with building a major component of a word processing program. Given a line and a word you are to determine the number of occurrences of that word in the line. Note that the word can be contained within another word in the same line, and these should count as two separate occurrences. Two words are considered equal if they contain the same characters  in the same order, ignoring uppercase/lowercase differences.
